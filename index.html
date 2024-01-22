@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #bio{
+            width: 70% ;
+            float: left;
+            padding: 10px;
+        }
+        #image{
+            display: block;
+            overflow: auto;
+        }
+        ul{
+            list-style-type: none;
+            overflow: auto;
+            background-color: darkblue;
+        }
+        li{
+            float: left;
+            padding: 10px;
+            display: block;
+        }
+        li a {color: white}
+        input[type=text] , select{
+            width: 90%;
+            border-radius: 5px;
+            padding: 12px 20px;
+        }
+        input[type=submit]{
+            background-color: red;
+            width: 90%;
+            border-radius: 5px;
+            padding: 12px 20px;
+        }
+        input[type=submit]:hover{
+            background-color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+<!--Navigation Bar-->
+<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="">Contact Us</a></li>
+</ul>
+<div id="container">
+ <div id="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto autem, consequuntur dicta dignissimos dolores eligendi eveniet exercitationem expedita fugiat minima molestiae nobis obcaecati, odio possimus quasi quis unde voluptates!</div>
+  <div id="image"><img src="img/tree1.jpeg" alt=""></div>
+    <br><br><br><br>
+    </div>
+    <table>
+        <tr>
+            <td><img src="img/tree1.jpeg" alt=""></td>
+            <td><img src="img/tree1.jpeg" alt=""></td>
+            <td><img src="img/tree1.jpeg" alt=""></td>
+
+        </tr>
+    </table>
+<div id="ContactUs">
+    <form>
+      <lable>First Name</lable><br>
+        <input type="text"><br>
+      <lable>Last Name</lable><br>
+        <input type="text"><br>
+        <lable>Gender</lable>
+        <br><input type="radio" value="Male" id="male">
+        <lable for="male">Male</lable>
+        <input type="radio" value="Female" id="female">
+        <lable for="female">Female</lable>
+        <br><label>Country</label><br>
+        <select id="country">
+            <option>Kenya</option>
+            <option value="">Tanzania</option>
+            <option value="">Uganda</option>
+        </select><br>
+        <input type="submit">
+        
+
+
+    </form>
+    
+</div>
+
+</body>
+</html>
